@@ -39,7 +39,8 @@ body{
     text-decoration: none;
     display: block;
     margin-bottom: 1em;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    border: var(--tertiary-azul) solid 1px;
 }
 .container__botao:hover{
     background-color: transparent;
@@ -51,7 +52,26 @@ body{
     background-color: transparent;
     border: 2px solid var(--primary-branco);
     text-decoration: none;
-    transition: 0.5s;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+.combo__botao{
+    background-color: var(--tertiary-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--primary-branco);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    transition: 0.5s  ease-in-out;
+    border: var(--tertiary-azul) solid 1px;
+}
+.combo__botao:hover{
+    background-color: transparent;
+    border: var(--botao-azul-efeito) solid 2px;
+    color: var(--botao-azul-efeito);
+
+
 }
 
 .container__aviso{
@@ -98,7 +118,7 @@ body{
     margin: 5em 0;
 }
 .dispositivos__imagem{
-   transition: 0.5s;
+   transition: 0.65s ease-in-out;
 }
 .dispositivos__imagem:hover{
     transform: scale(1.1);
