@@ -174,38 +174,3 @@ body{
     margin: 1.5em 0;
 
 }
-
-
-
-
-
-
-
-/* .dispositivos {
-    height: 50vh;
-    margin-top: 40px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .dispositivos__imagens {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .dispositivos__imagem {
-    margin: 0px 20px;
-    max-width: 300px;
-  }
-  .dispositivos__legenda {
-    text-align: center;
-    color: var(--primary-branco);
-    margin-top: 32px;
-  }
-  .footer{
-    text-align: center;
-    color: var(--primary-branco);
-    text-align: center;
-    padding: 1em;
-
-  } */
