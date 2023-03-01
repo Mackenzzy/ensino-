@@ -44,13 +44,13 @@ body{
 }
 .container__botao:hover{
     background-color: transparent;
-    border: var(--botao-azul-efeito) solid 2px;
+    border: var(--botao-azul-efeito) solid 1px;
     color: var(--botao-azul-efeito);
     font-weight: 700;
 }
 .botao__secundario{
     background-color: transparent;
-    border: 2px solid var(--primary-branco);
+    border: 1px solid var(--primary-branco);
     text-decoration: none;
     font-weight: 700;
     transition: 0.5s ease-in-out;
@@ -68,7 +68,7 @@ body{
 }
 .combo__botao:hover{
     background-color: transparent;
-    border: var(--botao-azul-efeito) solid 2px;
+    border: var(--botao-azul-efeito) solid 1px;
     color: var(--botao-azul-efeito);
 
 
